@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "xyCKwR9odD0=",
+  "success": true,
+  "projectFilePath": "/Users/alex/RiderProjects/business-days-calculator/src/BusinessDaysCalculator/BusinessDaysCalculator.csproj",
+  "expectedPackageFiles": [
+    "/Users/alex/.nuget/packages/microsoft.extensions.configuration/10.0.2/microsoft.extensions.configuration.10.0.2.nupkg.sha512",
+    "/Users/alex/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.2/microsoft.extensions.configuration.abstractions.10.0.2.nupkg.sha512",
+    "/Users/alex/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.2/microsoft.extensions.dependencyinjection.10.0.2.nupkg.sha512",
+    "/Users/alex/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.2/microsoft.extensions.dependencyinjection.abstractions.10.0.2.nupkg.sha512",
+    "/Users/alex/.nuget/packages/microsoft.extensions.options/10.0.2/microsoft.extensions.options.10.0.2.nupkg.sha512",
+    "/Users/alex/.nuget/packages/microsoft.extensions.primitives/10.0.2/microsoft.extensions.primitives.10.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
