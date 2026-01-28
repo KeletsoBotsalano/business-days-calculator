@@ -1,15 +1,37 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFrameworks>net6.0;net7.0;net8.0;</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>BusinessDaysCalculator</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Keletso A. Botsalano</Authors>
+    <Product>Business Days Calculator</Product>
+    <Description>A .NET library for calculating working/business days with configurable holidays and working days per country.</Description>
+    <PackageTags>business-days;working-days;calendar;holidays;datetime</PackageTags>
+    <PackageProjectUrl>https://github.com/KeletsoBotsalano/business-days-calculator</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/KeletsoBotsalano/business-days-calculator</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.2" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.2" />
-    <PackageReference Include="Microsoft.Extensions.Options" Version="10.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="8.0.0" />
   </ItemGroup>
+
+<!--  <ItemGroup>    -->
+<!--    <None Include="..\..\README.md" Pack="true" PackagePath="\" />   -->
+<!--    <None Include="..\..\icon.png" Pack="true" PackagePath="\" />  -->
+<!--  </ItemGroup>-->
 
 </Project>

@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace BusinessDaysCalculator.Configuration;
+namespace BusinessDaysCalculator.Models;
 
 public class Holiday
 {

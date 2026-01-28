@@ -1,4 +1,6 @@
-namespace BusinessDaysCalculator.Configuration;
+using BusinessDaysCalculator.Configuration;
+
+namespace BusinessDaysCalculator.Models;
 
 public class BusinessDayResult
 {
